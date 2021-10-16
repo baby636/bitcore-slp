@@ -1,0 +1,25 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - lerna > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2021-10-16T02:02:32.474Z'
+  SNYK-JS-LODASH-567746:
+    - eslint-plugin-import > lodash:
+        patched: '2021-10-16T02:02:32.474Z'
+    - typedoc > lodash:
+        patched: '2021-10-16T02:02:32.474Z'
+    - cz-customizable > inquirer > lodash:
+        patched: '2021-10-16T02:02:32.474Z'
+    - lerna > @lerna/bootstrap > @lerna/command > lodash:
+        patched: '2021-10-16T02:02:32.474Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2021-10-16T02:02:32.474Z'
+    - lerna > @lerna/version > @lerna/prompt > inquirer > lodash:
+        patched: '2021-10-16T02:02:32.474Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2021-10-16T02:02:32.474Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2021-10-16T02:02:32.474Z'
