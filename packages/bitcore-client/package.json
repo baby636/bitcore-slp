@@ -40,7 +40,7 @@
     "request-promise-native": "1.0.5",
     "secp256k1": "3.5.0",
     "source-map-support": "^0.5.13",
-    "web3": "1.0.0-beta.46"
+    "web3": "4.0.1"
   },
   "devDependencies": {
     "@types/bcrypt": "3.0.0",
