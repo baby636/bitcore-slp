@@ -28,7 +28,7 @@
     "ripple-binary-codec": "0.2.4",
     "ripple-keypairs": "0.11.0",
     "ripple-lib": "1.4.2",
-    "web3": "1.2.1"
+    "web3": "4.0.1"
   },
   "devDependencies": {
     "@types/chai": "4.1.7",
